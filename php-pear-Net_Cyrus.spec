@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 API for the administration of Cyrus IMAP servers. It can be used to
 create,delete and modify users and it's properties (Quota and ACL)
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa dostarcza API do administrowania serwerami Cyrus IMAP. Mo¿e
