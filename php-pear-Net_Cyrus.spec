@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - an API for the administration of Cyrus IMAP servers
 Summary(pl):	%{_pearname} - API do administrowania serwerami Cyrus IMAP
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.2.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e960034e37e08596ad8796c2baf9b713
+# Source0-md5:	49bddb6944cf7393140602d101df7ba2
 URL:		http://pear.php.net/package/Net_Cyrus/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
