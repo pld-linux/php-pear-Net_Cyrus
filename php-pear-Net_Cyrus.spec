@@ -4,8 +4,8 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - provides an API for the administration of Cyrus IMAP servers
-Summary(pl):	%{_pearname} - dostarcza API do administrowania serwerami Cyrus IMAP
+Summary:	%{_pearname} - an API for the administration of Cyrus IMAP servers
+Summary(pl):	%{_pearname} - API do administrowania serwerami Cyrus IMAP
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	1
@@ -26,9 +26,9 @@ create,delete and modify users and it's properties (Quota and ACL)
 This class has in PEAR status: %{_status}.
 
 %description -l pl
-Ta klasa dostarcza API do administrowania serwerami Cyrus IMAP. Mo¿e byæ
-u¿yte do tworzenia, usuwania oraz modyfikowania u¿ytkowników oraz ich
-w³a¶ciwo¶ci (Quota oraz ACL).
+Ta klasa dostarcza API do administrowania serwerami Cyrus IMAP. Mo¿e
+byæ u¿yte do tworzenia, usuwania oraz modyfikowania u¿ytkowników oraz
+ich w³a¶ciwo¶ci (Quota oraz ACL).
 
 Ta klasa ma w PEAR status: %{_status}.
 
