@@ -15,6 +15,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	7deb75ce29b9acdbb4fb34c5ba9b5384
 URL:		http://pear.php.net/package/Net_Cyrus/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-Net_Socket >= 1.0
