@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an API for the administration of Cyrus IMAP servers
-Summary(pl):	%{_pearname} - API do administrowania serwerami Cyrus IMAP
+Summary(pl.UTF-8):   %{_pearname} - API do administrowania serwerami Cyrus IMAP
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
 Release:	4
@@ -30,16 +30,16 @@ create,delete and modify users and it's properties (Quota and ACL)
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa dostarcza API do administrowania serwerami Cyrus IMAP. Moøe
-byÊ uøyte do tworzenia, usuwania oraz modyfikowania uøytkownikÛw oraz
-ich w≥a∂ciwo∂ci (Quota oraz ACL).
+%description -l pl.UTF-8
+Ta klasa dostarcza API do administrowania serwerami Cyrus IMAP. Mo≈ºe
+byƒá u≈ºyte do tworzenia, usuwania oraz modyfikowania u≈ºytkownik√≥w oraz
+ich w≈Ça≈õciwo≈õci (Quota oraz ACL).
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -48,7 +48,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
